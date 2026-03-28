@@ -98,3 +98,7 @@ flag{F3-3N-L4S-L0C4S}
 </details>
 
 Parabéns! Agora tente fazer o mesmo nos outros desafios.
+
+## Aviso
+
+Este projeto foi desenvolvido apenas para fins educacionais. As técnicas demonstradas simulam ataques em aplicações web dentro de um ambiente controlado. Não utilize essas práticas em sistemas reais sem autorização.
