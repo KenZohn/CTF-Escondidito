@@ -16,7 +16,7 @@ Para realizar o desafio, será necessário instalar:
 
 O WSL é uma forma prática de utilizar os comandos Linux direto no Windows, caso não tenha o Linux.
 
-Guia oficial: https://learn.microsoft.com/pt-br/windows/wsl/install
+Siga as instruções do guia oficial para instalar o WSL: https://learn.microsoft.com/pt-br/windows/wsl/install
 
 ### Hydra
 
