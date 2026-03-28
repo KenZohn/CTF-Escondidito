@@ -1,4 +1,4 @@
-# CTF-Escondidito
+# CTF Escondidito
 
 Um CTF de nível iniciante focado em brute-force em aplicações web.
 
