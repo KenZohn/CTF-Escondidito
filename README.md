@@ -49,11 +49,11 @@ Mantenha o terminal aberto e abra outro para realizar as próximas tarefas.
 
 Após iniciar o ambiente, acesse a página http://localhost:8080
 
-## Guia do Desafio 1
+## Guia do Desafio Brute-force 1
 
 O objetivo é descobrir as credenciais de login usando brute-force.
 
-Na página inicial, acesse o desafio 1. Será aberta uma página de login, mas não sabemos qual é o usuário, nem a senha.
+Na página inicial, acesse o desafio Brute-force 1. Será aberta uma página de login, mas não sabemos qual é o usuário, nem a senha.
 
 O nome de usuário está escondido no código fonte da tela de login. Clique com o botão direito do mouse na página e pressione em "Ver código-fonte". Veja se consegue encontrar o nome de usuário.
 
@@ -71,7 +71,7 @@ hydra -l <usuário> -P <lista-de-senhas> <IP-ou-URL-do-site> -s <porta> http-pos
 - lista-de-senhas: arquivo .txt com várias senhas. Usaremos o password-list.txt que já está preparado.
 - IP-ou-URL-do-site: endereço do alvo. Como a página está sendo executada localmente, usaremos 127.0.0.1
 - porta: porta do site. Aqui usaremos a porta configurada no Docker: 8080
-- página: endpoint de login. Para o desafio 1 é /desafio1/login.php
+- página: endpoint de login. Para o desafio Brute-force 1 é /brute-force-1/login.php
 - mensagem-de-erro: mensagem exibida ao tentar realizar o login com as credenciais erradas.
 
 Tente realizar o login com uma senha qualquer. Qual a mensagem de erro exibida?
@@ -84,7 +84,7 @@ A mensagem de erro é "Credenciais inválidas". Essa é a mensagem que será uti
 O comando completo é:
 
 ```
-hydra -l user -P password-list.txt 127.0.0.1 -s 8080 http-post-form "/desafio1/login.php:user=^USER^&pass=^PASS^:Credenciais inválidas"
+hydra -l user -P password-list.txt 127.0.0.1 -s 8080 http-post-form "/brute-force-1/login.php:user=^USER^&pass=^PASS^:Credenciais inválidas"
 ```
 
 Execute o comando no terminal e aguarde o processo finalizar.

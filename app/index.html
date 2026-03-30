@@ -42,20 +42,44 @@
         .menu a:hover {
             background: #333;
         }
+
+        .divider {
+            margin: 30px 0;
+            border-top: 1px solid #ccc;
+            position: relative;
+        }
+
+        .divider span {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 0 10px;
+            font-size: 16px;
+            color: #333;
+        }
     </style>
 </head>
 
 <body>
-
 <div class="container">
     <h1>CTF - Escondidito</h1>
 
     <div class="menu">
-        <a href="/desafio1/login.php">Desafio 1</a>
-        <a href="/desafio2/login.php">Desafio 2</a>
-        <a href="/desafio3/login.php">Desafio 3</a>
+        <div class="divider"><span>Brute-force</span></div>
+        <a href="/brute-force-1/login.php">Brute-force 1</a>
+        <a href="/brute-force-2/login.php">Brute-force 2</a>
+        <a href="/brute-force-3/login.php">Brute-force 3</a>
+
+        <div class="divider"><span>Ransomware</span></div>
+        <a href="/ransonware-1/dashboard.php">Ransonware 1</a>
+        <a href="/ransonware-2/dashboard.php">Ransonware 2</a>
+        <a href="/ransonware-3/dashboard.php">Ransonware 3</a>
+
+        <div class="divider"><span>Keylogger</span></div>
+        <a href="/keylogger-1/login.php">Keylogger 1</a>
     </div>
 </div>
-
 </body>
 </html>
