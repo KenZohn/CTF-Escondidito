@@ -1,13 +1,21 @@
 # CTF Escondidito
 
-Um CTF de nível iniciante focado em brute-force em aplicações web.
+Um CTF de nível iniciante focado em brute-force em aplicações web e outros tipos de vulnerabilidades.
 
 - **CTF (Capture The Flag)** é um tipo de desafio onde o objetivo é encontrar informações secretas (flags) explorando vulnerabilidades.
-- **Brute-force** é um método de invasão que testa várias senhas até encontrar a correta.
+
+## Tipos de Desafios
+- **Brute-force**: método de invasão que testa várias senhas até encontrar a correta.
+- **Ransomware**: malware que criptografa os dados. O objetivo do desafio será restaurar os dados.
+- **Keylogger**: malware que armazena o que o alvo digitou. O objetivo do desafio será obter as credenciais espionando o que o alvo digita.
+
+## Aviso
+
+Este projeto foi desenvolvido apenas para fins educacionais. As técnicas demonstradas simulam ataques em aplicações web dentro de um ambiente controlado. Não utilize essas práticas em sistemas reais sem autorização.
 
 ## Preparando o Ambiente
 
-Para realizar o desafio, será necessário instalar:
+Para realizar os desafios, será necessário instalar:
 - WSL
 - Hydra
 - Docker
@@ -99,6 +107,10 @@ flag{F3-3N-L4S-L0C4S}
 
 Parabéns! Agora tente fazer o mesmo nos outros desafios.
 
-## Aviso
+## Guia do Desafio Ransomware
 
-Este projeto foi desenvolvido apenas para fins educacionais. As técnicas demonstradas simulam ataques em aplicações web dentro de um ambiente controlado. Não utilize essas práticas em sistemas reais sem autorização.
+O objetivo é encontrar o tipo de codificação utilizada para restaurar a flag. Ela pode estar no código fonte ou na própria página. Procure!
+
+## Guia do Desafio Keylogger
+
+Aqui não tem muito segredo. Divirta-se nessa simulação de Keylogger, espionando o que o alvo está digitando!
