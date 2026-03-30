@@ -6,7 +6,7 @@ Um CTF de nível iniciante focado em brute-force em aplicações web e outros ti
 
 ## Tipos de Desafios
 - **Brute-force**: método de invasão que testa várias senhas até encontrar a correta.
-- **Ransonware**: malware que criptografa os dados. O objetivo do desafio será restaurar os dados.
+- **Ransomware**: malware que criptografa os dados. O objetivo do desafio será restaurar os dados.
 - **Keylogger**: malware que armazena o que o alvo digitou. O objetivo do desafio será obter as credenciais espionando o que o alvo digita.
 
 ## Aviso
@@ -107,7 +107,7 @@ flag{F3-3N-L4S-L0C4S}
 
 Parabéns! Agora tente fazer o mesmo nos outros desafios.
 
-## Guia do Desafio Ransonware
+## Guia do Desafio Ransomware
 
 O objetivo é encontrar o tipo de codificação utilizada para restaurar a flag. Ela pode estar no código fonte ou na própria página. Procure!
 
